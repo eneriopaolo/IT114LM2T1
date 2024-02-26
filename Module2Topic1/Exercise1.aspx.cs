@@ -13,5 +13,10 @@ namespace Module1Exercise1
         {
 
         }
+
+        protected void DisplayText(object sender, EventArgs e)
+        {
+            myText.InnerHtml = "RE Aoharu - Nor";
+        }
     }
 }
