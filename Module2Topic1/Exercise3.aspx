@@ -10,7 +10,7 @@
     <h1>What's my final grade?</h1>
     <form runat="server">
         <asp:Label runat="server" Text="Enter percentage value of your grade:"></asp:Label>
-        <asp:TextBox runat="server" ID="percentageGrade" TextMode="Number"/>
+        <asp:TextBox runat="server" ID="percentageGrade"/>
 
         <%-- TODO 3.1: Add an event handler for the button below --%>
         <%-- When the button is clicked it should display your equivalent numerial grade in the label with the id "finalGrade" --%>
